@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background: url(/img/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: cover;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.header img{
+  width: 60px;
+  margin-left: 8px;
+  background-color: transparent;
+}
+.navigation a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+#btn-header{
+  width: 15%;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 8px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.form{
+  display: none;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,20%);
+  width: 300px;
+  height: 350px;
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 20px;
+}
+.form h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5px;
+  color: white;
+  margin-bottom: 8%;
+}
+#close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 50px;
+  color: white;
+}
+.input-box{
+  width: 100%;
+  padding: 10px 0px;
+  padding-left: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 8%;
+  background: transparent;
+  outline: none;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+.input-form{
+  position: relative;
+}
+#user{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+#password{
+  position: absolute;
+  right: 10px;
+  top: 83px;
+  color: white;
+  font-size: 20px;
+}
+.input-box::placeholder{
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform:uppercase;
+}
+
+
+.form label input{
+  margin-right: 5px;
+}
+
+
+.form label{
+  color: white;
+  text-transform: uppercase;
+}
+
+.form a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 12px;
+  text-transform: capitalize;
+}
+
+#btn-form{
+  position: absolute;
+  left: 6%;
+  bottom: 10%;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 3px 100px;
+  cursor: pointer;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+  border: white 2px solid;
+  background-color: transparent;
+}
